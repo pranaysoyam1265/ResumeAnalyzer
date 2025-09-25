@@ -1,0 +1,120 @@
+📁 BreathewellAlert/
+├── 📁 Streamlit version/
+│   ├── 📄 README.md
+│   ├── 📄 analyze_resume.py
+│   ├── 📄 app.py
+│   ├── 📁 data/
+│   │   ├── 📁 courses/
+│   │   │   └── 📁 json/
+│   │   ├── 📁 data/
+│   │   ├── 📁 jobs/
+│   │   │   └── 📁 json/
+│   │   ├── 📁 resumes/
+│   │   │   ├── 📁 json/
+│   │   │   └── 📁 processed/
+│   │   └── 📁 skills/
+│   │       └── 📁 json/
+│   ├── 📄 delete.py
+│   ├── 📁 models/
+│   │   ├── 📁 ner_model/
+│   │   │   ├── 📄 config.cfg
+│   │   │   ├── 📄 meta.json
+│   │   │   ├── 📁 ner/
+│   │   │   ├── 📄 tokenizer
+│   │   │   └── 📁 vocab/
+│   │   └── 📁 skill_classifier/
+│   ├── 📄 requirements.txt
+│   ├── 📁 src/
+│   │   ├── 📄 __init__.py
+│   │   ├── 📄 api.py
+│   │   ├── 📄 config.py
+│   │   ├── 📄 data_preprocessing.py
+│   │   ├── 📄 gap_analyzer.py
+│   │   ├── 📄 model_trainer.py
+│   │   ├── 📄 recommendation_engine.py
+│   │   ├── 📄 resume_parser.py
+│   │   └── 📄 skill_extractor.py
+│   └── 📄 train_and_analyze.py
+├── 📁 VercelNext.js version/
+│   └── 📁 VercelNext.js version/
+│       ├── 📄 .gitignore
+│       ├── 📄 Project.zip
+│       ├── 📁 app/
+│       │   ├── 📁 advanced-analysis/
+│       │   ├── 📁 analysis-wizard/
+│       │   ├── 📁 api/
+│       │   ├── 📁 auth/
+│       │   ├── 📁 dashboard/
+│       │   ├── 📄 globals.css
+│       │   ├── 📄 layout.tsx
+│       │   └── 📄 page.tsx
+│       ├── 📁 components/
+│       │   ├── 📄 achievements.tsx
+│       │   ├── 📄 analytics-summary.tsx
+│       │   ├── 📄 career-goal-selector.tsx
+│       │   ├── 📄 course-card.tsx
+│       │   ├── 📄 course-filters.tsx
+│       │   ├── 📄 course-progress.tsx
+│       │   ├── 📄 dashboard-nav.tsx
+│       │   ├── 📄 dashboard-stats.tsx
+│       │   ├── 📄 file-upload.tsx
+│       │   ├── 📄 learning-path-builder.tsx
+│       │   ├── 📄 learning-path-progress.tsx
+│       │   ├── 📄 live-progress-feed.tsx
+│       │   ├── 📄 market-trends-chart.tsx
+│       │   ├── 📄 profile-completion-widget.tsx
+│       │   ├── 📄 progress-analytics.tsx
+│       │   ├── 📄 progress-chart.tsx
+│       │   ├── 📄 real-time-tracker.tsx
+│       │   ├── 📄 recent-activity.tsx
+│       │   ├── 📄 recommendation-engine.tsx
+│       │   ├── 📄 skill-extraction-results.tsx
+│       │   ├── 📄 skill-gap-analysis.tsx
+│       │   ├── 📄 skill-gap-visualization.tsx
+│       │   ├── 📄 skill-overview.tsx
+│       │   ├── 📄 skill-radar-chart.tsx
+│       │   ├── 📄 skill-validation.tsx
+│       │   ├── 📄 theme-provider.tsx
+│       │   └── 📁 ui/
+│       ├── 📄 components.json
+│       ├── 📄 directory_tree2.txt
+│       ├── 📄 generate_tree.py
+│       ├── 📁 hooks/
+│       │   ├── 📄 use-mobile.ts
+│       │   └── 📄 use-toast.ts
+│       ├── 📁 lib/
+│       │   ├── 📁 supabase/
+│       │   └── 📄 utils.ts
+│       ├── 📄 middleware.ts
+│       ├── 📄 next.config.mjs
+│       ├── 📄 package.json
+│       ├── 📄 pnpm-lock.yaml
+│       ├── 📄 postcss.config.mjs
+│       ├── 📄 prompt.txt
+│       ├── 📁 public/
+│       │   ├── 📄 placeholder-logo.png
+│       │   ├── 📄 placeholder-logo.svg
+│       │   ├── 📄 placeholder-user.jpg
+│       │   ├── 📄 placeholder.jpg
+│       │   └── 📄 placeholder.svg
+│       ├── 📁 scripts/
+│       │   ├── 📄 data_collector.py
+│       │   ├── 📄 domain_pretrainer.py
+│       │   ├── 📄 evaluate_ner.py
+│       │   ├── 📄 evaluate_recommender.py
+│       │   ├── 📄 kg_builder.py
+│       │   ├── 📄 kg_builder_requirements.txt
+│       │   ├── 📄 ner_finetuner.py
+│       │   ├── 📄 ner_trainer.py
+│       │   ├── 📄 ner_trainer_requirements.txt
+│       │   ├── 📄 proficiency_detector.py
+│       │   ├── 📄 proficiency_detector_requirements.txt
+│       │   ├── 📄 recommender_engine.py
+│       │   ├── 📄 requirements.txt
+│       │   ├── 📄 skill_extractor.py
+│       │   ├── 📄 skill_extractor_requirements.txt
+│       │   └── 📄 spacy_preprocessing.py
+│       ├── 📁 styles/
+│       │   └── 📄 globals.css
+│       └── 📄 tsconfig.json
+└── 📄 generate_tree.py
