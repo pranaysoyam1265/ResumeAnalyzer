@@ -1,4 +1,0 @@
-spacy
-neo4j
-# For NER model:
-# en_core_web_lg

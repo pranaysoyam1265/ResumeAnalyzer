@@ -1,4 +1,0 @@
-pandas
-spacy
-# For base model:
-# en_core_web_lg

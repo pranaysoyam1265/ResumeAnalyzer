@@ -1,6 +1,0 @@
-pandas
-requests
-kaggle
-spacy
-scikit-learn
-plotly
